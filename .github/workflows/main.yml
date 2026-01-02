@@ -2,8 +2,8 @@ name: Istanbul Crime Map Bot
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışır
-  workflow_dispatch: # Elinle de başlatabilirsin
+    - cron: '*/10 * * * *'  # Bu satır 'Her 10 dakikada bir çalış' demektir
+  workflow_dispatch:
 
 jobs:
   build:
