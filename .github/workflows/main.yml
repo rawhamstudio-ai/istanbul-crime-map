@@ -1,0 +1,32 @@
+name: Istanbul Crime Map Bot
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Her 30 dakikada bir çalışır
+  workflow_dispatch: # Elinle de başlatabilirsin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Bot
+        run: python ist.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m "Update crime data" || exit 0
+          git push
