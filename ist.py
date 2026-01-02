@@ -147,7 +147,11 @@ def harita_yap():
     print(f"📊 72 Saatlik Mega Analiz Hazır! ({len(veriler)} Vaka)")
     conn.close()
 
-# --- ANA DÖNGÜ ---
-# GitHub Actions için Tek Seferlik Çalışma
-derin_veri_cek()
-harita_yap()
+# ANA ÇALIŞTIRICI (GitHub Actions için uyumlu hale getirildi)
+if __name__ == "__main__":
+    print("🚀 Veri toplama başlatıldı...")
+    veri_cek()  # İsmin tam olarak böyle olduğundan emin ol
+    print("📊 Harita üretiliyor...")
+    harita_yap()
+    print("✅ İşlem tamamlandı.")
+
