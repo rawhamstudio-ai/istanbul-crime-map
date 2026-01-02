@@ -148,7 +148,6 @@ def harita_yap():
     conn.close()
 
 # --- ANA DÖNGÜ ---
-while True:
-    veri_cek()
-    harita_yap()
-    time.sleep(600)
+# GitHub Actions için Tek Seferlik Çalışma
+derin_veri_cek()
+harita_yap()
