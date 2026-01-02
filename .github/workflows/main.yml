@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Bot
-        run: python ist.py
+        run: py ist.py
 
       - name: Commit and push changes
         run: |
