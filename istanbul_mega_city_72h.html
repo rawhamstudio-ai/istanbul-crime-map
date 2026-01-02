@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3c6590cfbb65cdbb2400ba4290672289 {
+                #map_816363a19c31c20b207c6566822f576c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -60,19 +60,19 @@
                 border: 2px solid #e74c3c; font-family: sans-serif; box-shadow: 0 0 20px rgba(231,76,60,0.3);">
         <h4 style="margin:0 0 10px 0; text-align:center; color:#e74c3c;">🚨 Mega City 72H Report</h4>
         <div style="background:#222; text-align:center; padding:8px; border-radius:10px; margin-bottom:12px; border: 1px solid #444;">
-            <b style="font-size:16px;">Aktif Vaka: 27</b><br>
+            <b style="font-size:16px;">Aktif Vaka: 29</b><br>
             <small style="color:#aaa;">Son 3 Günlük Analiz</small>
         </div>
     <div style="margin:6px 0; font-size:11px;">💀 <b>Cinayet:</b> Şiddetli Suçlar</div><div style="margin:6px 0; font-size:11px;">💰 <b>Hırsızlık:</b> Mülkiyet Suçları</div><div style="margin:6px 0; font-size:11px;">👊 <b>Saldırı:</b> Kavga / Yaralama</div><div style="margin:6px 0; font-size:11px;">💥 <b>Kaza:</b> Trafik Kazaları</div><div style="margin:6px 0; font-size:11px;">💊 <b>Narkotik:</b> Narkotik Operasyonları</div><div style="margin:6px 0; font-size:11px;">🚨 <b>Asayiş:</b> Genel Asayiş / Haber</div></div>
     
-            <div class="folium-map" id="map_3c6590cfbb65cdbb2400ba4290672289" ></div>
+            <div class="folium-map" id="map_816363a19c31c20b207c6566822f576c" ></div>
         
 </body>
 <script>
     
     
-            var map_3c6590cfbb65cdbb2400ba4290672289 = L.map(
-                "map_3c6590cfbb65cdbb2400ba4290672289",
+            var map_816363a19c31c20b207c6566822f576c = L.map(
+                "map_816363a19c31c20b207c6566822f576c",
                 {
                     center: [41.0082, 28.9784],
                     crs: L.CRS.EPSG3857,
@@ -89,7 +89,7 @@
 
         
     
-            var tile_layer_c7f280c9aa6996d1eb79961380d9cad3 = L.tileLayer(
+            var tile_layer_6a003063bd7b9473a931a765d857b919 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -106,11 +106,11 @@
             );
         
     
-            tile_layer_c7f280c9aa6996d1eb79961380d9cad3.addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            tile_layer_6a003063bd7b9473a931a765d857b919.addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var heat_map_0d293bb3b9f2a1d8fdaeb81b8c031ab5 = L.heatLayer(
-                [[41.0127833354095, 28.92292673214227], [40.86258223647326, 29.225890572512885], [41.17066530766178, 29.038518044164494], [41.193636207824625, 28.742540184733922], [41.03328818660563, 28.847789893014184], [40.97747118308543, 29.038457744997814], [40.986422492010576, 28.71995990202362], [41.01477966638078, 28.58095695951425], [41.12365023079736, 29.090596456746248], [41.173812086668555, 29.60952573701635], [40.98992364181114, 28.723270625579737], [40.98287248324287, 28.726806121391043], [41.04190962020425, 28.93588656822437], [41.12605408561738, 29.088695610955753], [41.089391155706174, 28.979209478361486], [41.03826594511667, 29.109506416255996], [41.02588353224276, 28.680846820142026], [41.051311563932465, 28.982377229131185], [41.096333718479585, 28.806602899344618], [40.999086784866165, 28.761819086136516], [41.01935557006377, 28.67859356118232], [41.17176428457124, 28.748043732003705], [41.17460824195394, 28.740651536347453], [41.102551389543756, 28.805888090011067], [41.079213762921114, 28.98253452262724], [41.005186922559886, 28.92641884809144], [41.005468242463785, 29.026196126905912]],
+            var heat_map_133298603806936348ba59df3efe71ee = L.heatLayer(
+                [[41.0127833354095, 28.92292673214227], [40.86258223647326, 29.225890572512885], [41.17066530766178, 29.038518044164494], [41.193636207824625, 28.742540184733922], [41.03328818660563, 28.847789893014184], [40.97747118308543, 29.038457744997814], [40.986422492010576, 28.71995990202362], [41.01477966638078, 28.58095695951425], [41.12365023079736, 29.090596456746248], [41.173812086668555, 29.60952573701635], [40.98992364181114, 28.723270625579737], [40.98287248324287, 28.726806121391043], [41.04190962020425, 28.93588656822437], [41.12605408561738, 29.088695610955753], [41.089391155706174, 28.979209478361486], [41.03826594511667, 29.109506416255996], [41.02588353224276, 28.680846820142026], [41.051311563932465, 28.982377229131185], [41.096333718479585, 28.806602899344618], [40.999086784866165, 28.761819086136516], [41.01935557006377, 28.67859356118232], [41.17176428457124, 28.748043732003705], [41.17460824195394, 28.740651536347453], [41.102551389543756, 28.805888090011067], [41.079213762921114, 28.98253452262724], [41.005186922559886, 28.92641884809144], [41.005468242463785, 29.026196126905912], [41.041994366220784, 29.00164991038785], [41.170715909318936, 28.732361335537707]],
                 {
   "minOpacity": 0.35,
   "maxZoom": 18,
@@ -120,898 +120,964 @@
             );
         
     
-            heat_map_0d293bb3b9f2a1d8fdaeb81b8c031ab5.addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            heat_map_133298603806936348ba59df3efe71ee.addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var marker_8277c1ffc11ca785e26feab9b6ef5da6 = L.marker(
+            var marker_dcc8e2fbba836030d4a93dc89cd76455 = L.marker(
                 [41.0127833354095, 28.92292673214227],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_28d0175fb73d15332e89df30c2c659f7 = L.divIcon({
+            var div_icon_b69d43b90daaef398863af283015d2fc = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_cb0aa2a48617184cd4da75baca5cac4e = L.popup({
+        var popup_19d1ab19d4d6024845ed10463a91747c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_bd5d537ba1196d6768d69ce4601e5322 = $(`<div id="html_bd5d537ba1196d6768d69ce4601e5322" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Fatih</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Fatih’te 5 katlı binada yangın: 6 kişi dumandan etkilendi İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_cb0aa2a48617184cd4da75baca5cac4e.setContent(html_bd5d537ba1196d6768d69ce4601e5322);
+                var html_2742d43af2a87acaf685ff4b9675b4b8 = $(`<div id="html_2742d43af2a87acaf685ff4b9675b4b8" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Fatih</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Fatih’te 5 katlı binada yangın: 6 kişi dumandan etkilendi İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_19d1ab19d4d6024845ed10463a91747c.setContent(html_2742d43af2a87acaf685ff4b9675b4b8);
             
         
 
-        marker_8277c1ffc11ca785e26feab9b6ef5da6.bindPopup(popup_cb0aa2a48617184cd4da75baca5cac4e)
+        marker_dcc8e2fbba836030d4a93dc89cd76455.bindPopup(popup_19d1ab19d4d6024845ed10463a91747c)
         ;
 
         
     
     
-                marker_8277c1ffc11ca785e26feab9b6ef5da6.setIcon(div_icon_28d0175fb73d15332e89df30c2c659f7);
+                marker_dcc8e2fbba836030d4a93dc89cd76455.setIcon(div_icon_b69d43b90daaef398863af283015d2fc);
             
     
-            var marker_7f4cf6b931edf445740d477d4104084a = L.marker(
+            var marker_d445cfdec49928ad9f84337575ec7e28 = L.marker(
                 [40.86258223647326, 29.225890572512885],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_12a700cd334b124061bcf9d15ac31708 = L.divIcon({
+            var div_icon_27d60f208e158bd5d7f44a39387a145c = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #A020F0); cursor: pointer;\"\u003e\ud83d\udc8a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_2bbe172c76a62e18b91c7806499d7606 = L.popup({
+        var popup_aea7adf33d84010f0753bdba23f6da08 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_596455a4b51f4f90a818fe2fa65331c2 = $(`<div id="html_596455a4b51f4f90a818fe2fa65331c2" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #A020F0);">💊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #A020F0; font-size: 15px;">Narkotik</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Pendik</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul’da DEAŞ Operasyonu: Pendik’te de Helikopterler Uçtu - Pendikli TV</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_2bbe172c76a62e18b91c7806499d7606.setContent(html_596455a4b51f4f90a818fe2fa65331c2);
+                var html_80432b8b5e7cb248023970651c9379c0 = $(`<div id="html_80432b8b5e7cb248023970651c9379c0" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #A020F0);">💊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #A020F0; font-size: 15px;">Narkotik</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Pendik</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul’da DEAŞ Operasyonu: Pendik’te de Helikopterler Uçtu - Pendikli TV</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_aea7adf33d84010f0753bdba23f6da08.setContent(html_80432b8b5e7cb248023970651c9379c0);
             
         
 
-        marker_7f4cf6b931edf445740d477d4104084a.bindPopup(popup_2bbe172c76a62e18b91c7806499d7606)
+        marker_d445cfdec49928ad9f84337575ec7e28.bindPopup(popup_aea7adf33d84010f0753bdba23f6da08)
         ;
 
         
     
     
-                marker_7f4cf6b931edf445740d477d4104084a.setIcon(div_icon_12a700cd334b124061bcf9d15ac31708);
+                marker_d445cfdec49928ad9f84337575ec7e28.setIcon(div_icon_27d60f208e158bd5d7f44a39387a145c);
             
     
-            var marker_200327ad44c8318fc75e75a09600a4f8 = L.marker(
+            var marker_17824247aa0016fb7657f8a177571bef = L.marker(
                 [41.17066530766178, 29.038518044164494],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_3d380b84e5f1a7f6ebfe48ae8a483f56 = L.divIcon({
+            var div_icon_fd2d25d4f1ba91cde828dca0c72cde7b = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_65889b0bbe928ee5d2707dcfade3495c = L.popup({
+        var popup_d7d6d7d717b1252c21b48b2fc71d8eb1 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_3c4ab46119a91dc8dbb6e38d4f69add9 = $(`<div id="html_3c4ab46119a91dc8dbb6e38d4f69add9" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Sarıyer</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul'da Yeni Yıla Karla Giriş: Sarıyer Beyaza Büründü - Haberport.com</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_65889b0bbe928ee5d2707dcfade3495c.setContent(html_3c4ab46119a91dc8dbb6e38d4f69add9);
+                var html_dc91fe80a72d5f5689e6d73cc8c4a84b = $(`<div id="html_dc91fe80a72d5f5689e6d73cc8c4a84b" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Sarıyer</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul'da Yeni Yıla Karla Giriş: Sarıyer Beyaza Büründü - Haberport.com</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_d7d6d7d717b1252c21b48b2fc71d8eb1.setContent(html_dc91fe80a72d5f5689e6d73cc8c4a84b);
             
         
 
-        marker_200327ad44c8318fc75e75a09600a4f8.bindPopup(popup_65889b0bbe928ee5d2707dcfade3495c)
+        marker_17824247aa0016fb7657f8a177571bef.bindPopup(popup_d7d6d7d717b1252c21b48b2fc71d8eb1)
         ;
 
         
     
     
-                marker_200327ad44c8318fc75e75a09600a4f8.setIcon(div_icon_3d380b84e5f1a7f6ebfe48ae8a483f56);
+                marker_17824247aa0016fb7657f8a177571bef.setIcon(div_icon_fd2d25d4f1ba91cde828dca0c72cde7b);
             
     
-            var marker_fdd5558e1d9d0a54f84095017b11c9b3 = L.marker(
+            var marker_79cdb0632ede7f2fb08a7c6a529368d3 = L.marker(
                 [41.193636207824625, 28.742540184733922],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_75344849dc9f0c9bcb88ce25b023a7b3 = L.divIcon({
+            var div_icon_dc9b0c95fb115908c87e16dbe2065791 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FF4500); cursor: pointer;\"\u003e\ud83d\udc4a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_1b7bd0827a83be4857bc780c41b519d5 = L.popup({
+        var popup_70b8f8554d21bb35843fd7dda063d4cd = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_308423bf97a5ab247aa6958884c85b0e = $(`<div id="html_308423bf97a5ab247aa6958884c85b0e" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Arnavutköy’de Zincir Markete Silahlı Saldırı! Şüpheli Yakalandı - Genç Gazete</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_1b7bd0827a83be4857bc780c41b519d5.setContent(html_308423bf97a5ab247aa6958884c85b0e);
+                var html_59b89679e63995e16bfc4e2a29d69faa = $(`<div id="html_59b89679e63995e16bfc4e2a29d69faa" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Arnavutköy’de Zincir Markete Silahlı Saldırı! Şüpheli Yakalandı - Genç Gazete</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_70b8f8554d21bb35843fd7dda063d4cd.setContent(html_59b89679e63995e16bfc4e2a29d69faa);
             
         
 
-        marker_fdd5558e1d9d0a54f84095017b11c9b3.bindPopup(popup_1b7bd0827a83be4857bc780c41b519d5)
+        marker_79cdb0632ede7f2fb08a7c6a529368d3.bindPopup(popup_70b8f8554d21bb35843fd7dda063d4cd)
         ;
 
         
     
     
-                marker_fdd5558e1d9d0a54f84095017b11c9b3.setIcon(div_icon_75344849dc9f0c9bcb88ce25b023a7b3);
+                marker_79cdb0632ede7f2fb08a7c6a529368d3.setIcon(div_icon_dc9b0c95fb115908c87e16dbe2065791);
             
     
-            var marker_f00cf18a403f07de1a1df8a724e119a0 = L.marker(
+            var marker_a4f459b15b41e3954392803cf44624a5 = L.marker(
                 [41.03328818660563, 28.847789893014184],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_f6d47ca98409ace9a5e93c11ce6d2537 = L.divIcon({
+            var div_icon_cc9582c7dd349904a9f6d78906b31062 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_865191fac9519c164cafa2d4df631d43 = L.popup({
+        var popup_b324ba46da8db16f528454756e641203 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_4dd44259696286e4f819c3b6814cc22c = $(`<div id="html_4dd44259696286e4f819c3b6814cc22c" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Bağcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Ümraniye, Bağcılar, Bahçelievler okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_865191fac9519c164cafa2d4df631d43.setContent(html_4dd44259696286e4f819c3b6814cc22c);
+                var html_6f86d602c9a0926a0d5dec1b18d87c35 = $(`<div id="html_6f86d602c9a0926a0d5dec1b18d87c35" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Bağcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Ümraniye, Bağcılar, Bahçelievler okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_b324ba46da8db16f528454756e641203.setContent(html_6f86d602c9a0926a0d5dec1b18d87c35);
             
         
 
-        marker_f00cf18a403f07de1a1df8a724e119a0.bindPopup(popup_865191fac9519c164cafa2d4df631d43)
+        marker_a4f459b15b41e3954392803cf44624a5.bindPopup(popup_b324ba46da8db16f528454756e641203)
         ;
 
         
     
     
-                marker_f00cf18a403f07de1a1df8a724e119a0.setIcon(div_icon_f6d47ca98409ace9a5e93c11ce6d2537);
+                marker_a4f459b15b41e3954392803cf44624a5.setIcon(div_icon_cc9582c7dd349904a9f6d78906b31062);
             
     
-            var marker_11a37150c73247dad7d742371bbdb35e = L.marker(
+            var marker_731ddca27aebea2439fd39d8760df62f = L.marker(
                 [40.97747118308543, 29.038457744997814],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_2251e8d43788ed8b79551c84059d0814 = L.divIcon({
+            var div_icon_3924cd1d1d9290f33508fb7ffd7a0668 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_11e35cdc9f2fb3567b3489db6d548218 = L.popup({
+        var popup_a861bfcc849d39918eefbc4823617416 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_2c67b3699b98c5f8db910cd8ad6f71b2 = $(`<div id="html_2c67b3699b98c5f8db910cd8ad6f71b2" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kadıköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kartal, Kadıköy, Kağıthane okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_11e35cdc9f2fb3567b3489db6d548218.setContent(html_2c67b3699b98c5f8db910cd8ad6f71b2);
+                var html_4c2a67043344b821ee1f44f0afb010ca = $(`<div id="html_4c2a67043344b821ee1f44f0afb010ca" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kadıköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kartal, Kadıköy, Kağıthane okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_a861bfcc849d39918eefbc4823617416.setContent(html_4c2a67043344b821ee1f44f0afb010ca);
             
         
 
-        marker_11a37150c73247dad7d742371bbdb35e.bindPopup(popup_11e35cdc9f2fb3567b3489db6d548218)
+        marker_731ddca27aebea2439fd39d8760df62f.bindPopup(popup_a861bfcc849d39918eefbc4823617416)
         ;
 
         
     
     
-                marker_11a37150c73247dad7d742371bbdb35e.setIcon(div_icon_2251e8d43788ed8b79551c84059d0814);
+                marker_731ddca27aebea2439fd39d8760df62f.setIcon(div_icon_3924cd1d1d9290f33508fb7ffd7a0668);
             
     
-            var marker_0f69dddc33c2d4e34c302fedff11bd88 = L.marker(
+            var marker_228302ebe798d6b1932a613a91fea539 = L.marker(
                 [40.986422492010576, 28.71995990202362],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_47caf7331c6665c3357402319a2b2a2b = L.divIcon({
+            var div_icon_4ad4b60cc00cf0a1c626446c53c40c96 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_d3bd45a0e7132a62eeb658f2602c2a35 = L.popup({
+        var popup_d1ca6112c8b749a9c6b78e814a51f492 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_33b8ae957e634b9ca5a45ad2952d5270 = $(`<div id="html_33b8ae957e634b9ca5a45ad2952d5270" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Avcılar, Esenler, Eyüpsultan okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_d3bd45a0e7132a62eeb658f2602c2a35.setContent(html_33b8ae957e634b9ca5a45ad2952d5270);
+                var html_c0312fbb675b8eca454fb44b86d306e0 = $(`<div id="html_c0312fbb675b8eca454fb44b86d306e0" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Avcılar, Esenler, Eyüpsultan okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_d1ca6112c8b749a9c6b78e814a51f492.setContent(html_c0312fbb675b8eca454fb44b86d306e0);
             
         
 
-        marker_0f69dddc33c2d4e34c302fedff11bd88.bindPopup(popup_d3bd45a0e7132a62eeb658f2602c2a35)
+        marker_228302ebe798d6b1932a613a91fea539.bindPopup(popup_d1ca6112c8b749a9c6b78e814a51f492)
         ;
 
         
     
     
-                marker_0f69dddc33c2d4e34c302fedff11bd88.setIcon(div_icon_47caf7331c6665c3357402319a2b2a2b);
+                marker_228302ebe798d6b1932a613a91fea539.setIcon(div_icon_4ad4b60cc00cf0a1c626446c53c40c96);
             
     
-            var marker_526af2abd1cfefc04d3d9339f9a5cab9 = L.marker(
+            var marker_b37d0f5d15bc1b875a25f585b32522eb = L.marker(
                 [41.01477966638078, 28.58095695951425],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_03e6cbacc4857c521650851061af66cf = L.divIcon({
+            var div_icon_f72ccfd6161a9bff60a4f0f162c83e1c = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_6080f15abfb428b1f03c0253569f8127 = L.popup({
+        var popup_4c433ae3621d6f40108980c2d77fa501 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_d58b970d834c26b3ceaebe6ddc518f27 = $(`<div id="html_d58b970d834c26b3ceaebe6ddc518f27" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Büyükçekmece</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Çekmeköy, Tuzla, Büyükçekmece okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_6080f15abfb428b1f03c0253569f8127.setContent(html_d58b970d834c26b3ceaebe6ddc518f27);
+                var html_0f98c0da87658669352936027d72b88b = $(`<div id="html_0f98c0da87658669352936027d72b88b" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Büyükçekmece</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Çekmeköy, Tuzla, Büyükçekmece okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_4c433ae3621d6f40108980c2d77fa501.setContent(html_0f98c0da87658669352936027d72b88b);
             
         
 
-        marker_526af2abd1cfefc04d3d9339f9a5cab9.bindPopup(popup_6080f15abfb428b1f03c0253569f8127)
+        marker_b37d0f5d15bc1b875a25f585b32522eb.bindPopup(popup_4c433ae3621d6f40108980c2d77fa501)
         ;
 
         
     
     
-                marker_526af2abd1cfefc04d3d9339f9a5cab9.setIcon(div_icon_03e6cbacc4857c521650851061af66cf);
+                marker_b37d0f5d15bc1b875a25f585b32522eb.setIcon(div_icon_f72ccfd6161a9bff60a4f0f162c83e1c);
             
     
-            var marker_71789a93e302fb7a415426cd6a0566c9 = L.marker(
+            var marker_d118bf9eaf079ef565cff65a4453eb09 = L.marker(
                 [41.12365023079736, 29.090596456746248],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_852e272f62b48599e8421577cc8dbab4 = L.divIcon({
+            var div_icon_90b277c59e6e1a125a08ff0bb21dc462 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_32d948d24aa5da35c3b84b14a5284be6 = L.popup({
+        var popup_705d9172bdec615403d55808024e4731 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_dff25f40299ca2fad5d0009ee49c20e4 = $(`<div id="html_dff25f40299ca2fad5d0009ee49c20e4" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Beykoz</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul'da Kar Yağışı Beykoz'u Beyaza Bürüdü - SonDakika</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_32d948d24aa5da35c3b84b14a5284be6.setContent(html_dff25f40299ca2fad5d0009ee49c20e4);
+                var html_fc25df32a0ddcafc922f813fd74c1d7e = $(`<div id="html_fc25df32a0ddcafc922f813fd74c1d7e" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Beykoz</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul'da Kar Yağışı Beykoz'u Beyaza Bürüdü - SonDakika</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_705d9172bdec615403d55808024e4731.setContent(html_fc25df32a0ddcafc922f813fd74c1d7e);
             
         
 
-        marker_71789a93e302fb7a415426cd6a0566c9.bindPopup(popup_32d948d24aa5da35c3b84b14a5284be6)
+        marker_d118bf9eaf079ef565cff65a4453eb09.bindPopup(popup_705d9172bdec615403d55808024e4731)
         ;
 
         
     
     
-                marker_71789a93e302fb7a415426cd6a0566c9.setIcon(div_icon_852e272f62b48599e8421577cc8dbab4);
+                marker_d118bf9eaf079ef565cff65a4453eb09.setIcon(div_icon_90b277c59e6e1a125a08ff0bb21dc462);
             
     
-            var marker_cbbccea6b13164821bfe96f1f446197d = L.marker(
+            var marker_1a9504582957defdeaf9509083d35dec = L.marker(
                 [41.173812086668555, 29.60952573701635],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_67c2196e4ba7300d5aa99d2121853e1f = L.divIcon({
+            var div_icon_43084d5ba4a720c9f16bedc5a2150e29 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_488641f83cecf815d8d9713ff95ab73f = L.popup({
+        var popup_6116bd5d20b740b877fc7f7dfe686d78 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_9329fa86332df1f2337883f1780f075e = $(`<div id="html_9329fa86332df1f2337883f1780f075e" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Şile</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Şile'de buzlanma riski nedeniyle yarın eğitim-öğretime ara verildi | Son dakika haberleri - Habertürk</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_488641f83cecf815d8d9713ff95ab73f.setContent(html_9329fa86332df1f2337883f1780f075e);
+                var html_6b29047e6cfb741f037f1f697de540c5 = $(`<div id="html_6b29047e6cfb741f037f1f697de540c5" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Şile</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Şile'de buzlanma riski nedeniyle yarın eğitim-öğretime ara verildi | Son dakika haberleri - Habertürk</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_6116bd5d20b740b877fc7f7dfe686d78.setContent(html_6b29047e6cfb741f037f1f697de540c5);
             
         
 
-        marker_cbbccea6b13164821bfe96f1f446197d.bindPopup(popup_488641f83cecf815d8d9713ff95ab73f)
+        marker_1a9504582957defdeaf9509083d35dec.bindPopup(popup_6116bd5d20b740b877fc7f7dfe686d78)
         ;
 
         
     
     
-                marker_cbbccea6b13164821bfe96f1f446197d.setIcon(div_icon_67c2196e4ba7300d5aa99d2121853e1f);
+                marker_1a9504582957defdeaf9509083d35dec.setIcon(div_icon_43084d5ba4a720c9f16bedc5a2150e29);
             
     
-            var marker_b5d4a446de22f81411f6d8e7a1178b12 = L.marker(
+            var marker_8707b05cdacd25e6de71960ec3edfc5f = L.marker(
                 [40.98992364181114, 28.723270625579737],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_f2329fc224d7918cb42b4ba488f9c880 = L.divIcon({
+            var div_icon_003f9766dcfecbf5030251956895eecb = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FFA500); cursor: pointer;\"\u003e\ud83d\udcb0\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_c90b3f9af828b7a80d9d5486e134b0be = L.popup({
+        var popup_c3d42e2705708bc61790bd790c4bc156 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_d74c9ba5360710e13f30f8f3eb2bf92b = $(`<div id="html_d74c9ba5360710e13f30f8f3eb2bf92b" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Avcılar’da ayakkabı hırsızlığı kamerada - Milliyet</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_c90b3f9af828b7a80d9d5486e134b0be.setContent(html_d74c9ba5360710e13f30f8f3eb2bf92b);
+                var html_0d832a7abac9c418f88882cdb8e03dae = $(`<div id="html_0d832a7abac9c418f88882cdb8e03dae" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Avcılar’da ayakkabı hırsızlığı kamerada - Milliyet</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_c3d42e2705708bc61790bd790c4bc156.setContent(html_0d832a7abac9c418f88882cdb8e03dae);
             
         
 
-        marker_b5d4a446de22f81411f6d8e7a1178b12.bindPopup(popup_c90b3f9af828b7a80d9d5486e134b0be)
+        marker_8707b05cdacd25e6de71960ec3edfc5f.bindPopup(popup_c3d42e2705708bc61790bd790c4bc156)
         ;
 
         
     
     
-                marker_b5d4a446de22f81411f6d8e7a1178b12.setIcon(div_icon_f2329fc224d7918cb42b4ba488f9c880);
+                marker_8707b05cdacd25e6de71960ec3edfc5f.setIcon(div_icon_003f9766dcfecbf5030251956895eecb);
             
     
-            var marker_7824effaadc270a795524cfc67718a43 = L.marker(
+            var marker_c10557ff49d2bd94d430261e45aa7338 = L.marker(
                 [40.98287248324287, 28.726806121391043],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_8e848c5a028abe8854f5c2e8238e6a8d = L.divIcon({
+            var div_icon_109777b09fe32d477ef859a4b657a77c = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FFA500); cursor: pointer;\"\u003e\ud83d\udcb0\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_7cd94316c7857e691d2c1a97415fe5ea = L.popup({
+        var popup_1535c71320d3bd9a6a03909ca6f563e0 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_331863c77a7e51651e1348fe0bbc8025 = $(`<div id="html_331863c77a7e51651e1348fe0bbc8025" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Avcılar'da ayakkabı hırsızlığı kamerada - Karadeniz Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_7cd94316c7857e691d2c1a97415fe5ea.setContent(html_331863c77a7e51651e1348fe0bbc8025);
+                var html_16509147e250161088a357a0f0f1e662 = $(`<div id="html_16509147e250161088a357a0f0f1e662" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Avcılar</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Avcılar'da ayakkabı hırsızlığı kamerada - Karadeniz Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_1535c71320d3bd9a6a03909ca6f563e0.setContent(html_16509147e250161088a357a0f0f1e662);
             
         
 
-        marker_7824effaadc270a795524cfc67718a43.bindPopup(popup_7cd94316c7857e691d2c1a97415fe5ea)
+        marker_c10557ff49d2bd94d430261e45aa7338.bindPopup(popup_1535c71320d3bd9a6a03909ca6f563e0)
         ;
 
         
     
     
-                marker_7824effaadc270a795524cfc67718a43.setIcon(div_icon_8e848c5a028abe8854f5c2e8238e6a8d);
+                marker_c10557ff49d2bd94d430261e45aa7338.setIcon(div_icon_109777b09fe32d477ef859a4b657a77c);
             
     
-            var marker_d9f1ef6c54b773419ed95def8b09b303 = L.marker(
+            var marker_95cb5fb2719c8ef2c3efbffa698b2c48 = L.marker(
                 [41.04190962020425, 28.93588656822437],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_eed6be54e309f986b7c1bd0d5b5678bc = L.divIcon({
+            var div_icon_1a67793e5d3ffaca5728f4ee1bfeba78 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FFA500); cursor: pointer;\"\u003e\ud83d\udcb0\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_310f8a878ce38d407b3341e33cfbb439 = L.popup({
+        var popup_4b826a4ab0dfadce734a8aa383d5d4d9 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_78c8439436f82aed62eca0b00d07cb90 = $(`<div id="html_78c8439436f82aed62eca0b00d07cb90" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Eyüpsultan</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Eyüpsultan’da görüntülü diyafon hırsızlığı kamerada - MSN</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_310f8a878ce38d407b3341e33cfbb439.setContent(html_78c8439436f82aed62eca0b00d07cb90);
+                var html_e81de989e87afbe8578a91a2cfbf499e = $(`<div id="html_e81de989e87afbe8578a91a2cfbf499e" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Eyüpsultan</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Eyüpsultan’da görüntülü diyafon hırsızlığı kamerada - MSN</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_4b826a4ab0dfadce734a8aa383d5d4d9.setContent(html_e81de989e87afbe8578a91a2cfbf499e);
             
         
 
-        marker_d9f1ef6c54b773419ed95def8b09b303.bindPopup(popup_310f8a878ce38d407b3341e33cfbb439)
+        marker_95cb5fb2719c8ef2c3efbffa698b2c48.bindPopup(popup_4b826a4ab0dfadce734a8aa383d5d4d9)
         ;
 
         
     
     
-                marker_d9f1ef6c54b773419ed95def8b09b303.setIcon(div_icon_eed6be54e309f986b7c1bd0d5b5678bc);
+                marker_95cb5fb2719c8ef2c3efbffa698b2c48.setIcon(div_icon_1a67793e5d3ffaca5728f4ee1bfeba78);
             
     
-            var marker_38c12c68132fef6ec2c582f449c9add0 = L.marker(
+            var marker_806ad3ff915fc9876e01b23c56f25a3c = L.marker(
                 [41.12605408561738, 29.088695610955753],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_d5087140316fc39f1de77c66144a72fc = L.divIcon({
+            var div_icon_9a7bd56d52e2061065434ec8cf6f804f = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_1194bcfa48aef650d3c3cb6ea844e956 = L.popup({
+        var popup_a189d19da794153e001183e32c05dd63 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_60915f12266a16622d5af32c250844a8 = $(`<div id="html_60915f12266a16622d5af32c250844a8" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Beykoz</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul - Beykoz beyaza büründü; manzara havadan görüntülendi - Demirören Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_1194bcfa48aef650d3c3cb6ea844e956.setContent(html_60915f12266a16622d5af32c250844a8);
+                var html_348477b7fcb89271d868ab5916d70bbf = $(`<div id="html_348477b7fcb89271d868ab5916d70bbf" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Beykoz</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul - Beykoz beyaza büründü; manzara havadan görüntülendi - Demirören Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_a189d19da794153e001183e32c05dd63.setContent(html_348477b7fcb89271d868ab5916d70bbf);
             
         
 
-        marker_38c12c68132fef6ec2c582f449c9add0.bindPopup(popup_1194bcfa48aef650d3c3cb6ea844e956)
+        marker_806ad3ff915fc9876e01b23c56f25a3c.bindPopup(popup_a189d19da794153e001183e32c05dd63)
         ;
 
         
     
     
-                marker_38c12c68132fef6ec2c582f449c9add0.setIcon(div_icon_d5087140316fc39f1de77c66144a72fc);
+                marker_806ad3ff915fc9876e01b23c56f25a3c.setIcon(div_icon_9a7bd56d52e2061065434ec8cf6f804f);
             
     
-            var marker_a712618660dc3063b116ae0108154789 = L.marker(
+            var marker_0239e604bd2d3a8a0565d985b8fe17aa = L.marker(
                 [41.089391155706174, 28.979209478361486],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_f9cf60a842668da35e4f7cb95935b86b = L.divIcon({
+            var div_icon_31a79c04253a98dc050ded3e2039db73 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #00BFFF); cursor: pointer;\"\u003e\ud83d\udca5\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_443d3b0a8b8685772c3d71958f459b39 = L.popup({
+        var popup_b9cd8ea03e8653bbf543c74012d9ea27 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_94343f4ff5ff8c549de8be0c7a52ce1a = $(`<div id="html_94343f4ff5ff8c549de8be0c7a52ce1a" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #00BFFF);">💥</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #00BFFF; font-size: 15px;">Kaza</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kağıthane</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Kağıthane’de yokuştan kayan kamyonet kartopu oynayan çocuklara çarptı; kaza kamerada - Demirören Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_443d3b0a8b8685772c3d71958f459b39.setContent(html_94343f4ff5ff8c549de8be0c7a52ce1a);
+                var html_465b31c431774db3c1e7e38b2b31d8c4 = $(`<div id="html_465b31c431774db3c1e7e38b2b31d8c4" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #00BFFF);">💥</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #00BFFF; font-size: 15px;">Kaza</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kağıthane</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul- Kağıthane’de yokuştan kayan kamyonet kartopu oynayan çocuklara çarptı; kaza kamerada - Demirören Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_b9cd8ea03e8653bbf543c74012d9ea27.setContent(html_465b31c431774db3c1e7e38b2b31d8c4);
             
         
 
-        marker_a712618660dc3063b116ae0108154789.bindPopup(popup_443d3b0a8b8685772c3d71958f459b39)
+        marker_0239e604bd2d3a8a0565d985b8fe17aa.bindPopup(popup_b9cd8ea03e8653bbf543c74012d9ea27)
         ;
 
         
     
     
-                marker_a712618660dc3063b116ae0108154789.setIcon(div_icon_f9cf60a842668da35e4f7cb95935b86b);
+                marker_0239e604bd2d3a8a0565d985b8fe17aa.setIcon(div_icon_31a79c04253a98dc050ded3e2039db73);
             
     
-            var marker_894374cc52e0bf7118aed0b978f313e9 = L.marker(
+            var marker_f3599d20ec914f7df3617361f9705697 = L.marker(
                 [41.03826594511667, 29.109506416255996],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_389165db9bba8b784bb727822f3c39dc = L.divIcon({
+            var div_icon_13e9b5dc5be3e6fe9f370ca595a51888 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FFA500); cursor: pointer;\"\u003e\ud83d\udcb0\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_b932e3945cbff2f6c3df8f178280db94 = L.popup({
+        var popup_d4b39b9a6dbdd9d268dbef176a757194 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_6b3903089410bb790f812cad9ebcecec = $(`<div id="html_6b3903089410bb790f812cad9ebcecec" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Ümraniye</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Ümraniye’de kuyumcuya silahlı soygun girişimi - MSN</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_b932e3945cbff2f6c3df8f178280db94.setContent(html_6b3903089410bb790f812cad9ebcecec);
+                var html_45c65fe6ba1caa676cb188e283c27c3b = $(`<div id="html_45c65fe6ba1caa676cb188e283c27c3b" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FFA500);">💰</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FFA500; font-size: 15px;">Hırsızlık</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Ümraniye</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Ümraniye’de kuyumcuya silahlı soygun girişimi - MSN</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_d4b39b9a6dbdd9d268dbef176a757194.setContent(html_45c65fe6ba1caa676cb188e283c27c3b);
             
         
 
-        marker_894374cc52e0bf7118aed0b978f313e9.bindPopup(popup_b932e3945cbff2f6c3df8f178280db94)
+        marker_f3599d20ec914f7df3617361f9705697.bindPopup(popup_d4b39b9a6dbdd9d268dbef176a757194)
         ;
 
         
     
     
-                marker_894374cc52e0bf7118aed0b978f313e9.setIcon(div_icon_389165db9bba8b784bb727822f3c39dc);
+                marker_f3599d20ec914f7df3617361f9705697.setIcon(div_icon_13e9b5dc5be3e6fe9f370ca595a51888);
             
     
-            var marker_a82561328e851e8da50de9e052ffa54f = L.marker(
+            var marker_01e8414707576c61ef2a651c47c6c351 = L.marker(
                 [41.02588353224276, 28.680846820142026],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_0225aa9f7aa21d22372d07fd89228c56 = L.divIcon({
+            var div_icon_fc07f34510377cedb4954d496bc1b3b0 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_84fa2465ba2c871f2ad78c2ce66e3a87 = L.popup({
+        var popup_e209ec3564693da38b0b43127abf34bf = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_c7b61ad9de2320d9a71dc980a7ed0852 = $(`<div id="html_c7b61ad9de2320d9a71dc980a7ed0852" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Esenyurt</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Esenyurt'taki fabrika yangını: Patlamalar peş peşe geldi! videosunu izle | Son Dakika Haberleri - Sabah</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_84fa2465ba2c871f2ad78c2ce66e3a87.setContent(html_c7b61ad9de2320d9a71dc980a7ed0852);
+                var html_08f81c12901ba61b4775c761307a5d6a = $(`<div id="html_08f81c12901ba61b4775c761307a5d6a" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Esenyurt</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Esenyurt'taki fabrika yangını: Patlamalar peş peşe geldi! videosunu izle | Son Dakika Haberleri - Sabah</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_e209ec3564693da38b0b43127abf34bf.setContent(html_08f81c12901ba61b4775c761307a5d6a);
             
         
 
-        marker_a82561328e851e8da50de9e052ffa54f.bindPopup(popup_84fa2465ba2c871f2ad78c2ce66e3a87)
+        marker_01e8414707576c61ef2a651c47c6c351.bindPopup(popup_e209ec3564693da38b0b43127abf34bf)
         ;
 
         
     
     
-                marker_a82561328e851e8da50de9e052ffa54f.setIcon(div_icon_0225aa9f7aa21d22372d07fd89228c56);
+                marker_01e8414707576c61ef2a651c47c6c351.setIcon(div_icon_fc07f34510377cedb4954d496bc1b3b0);
             
     
-            var marker_69e24c2199082cf9101553660bf55bfd = L.marker(
+            var marker_2856beeb975eaf2133abab73b06e3b56 = L.marker(
                 [41.051311563932465, 28.982377229131185],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_cb5b7bc0c06f551ca655771fe9fd51ed = L.divIcon({
+            var div_icon_b2529cf57a7063e1c4cc4597c6551ebe = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FF4500); cursor: pointer;\"\u003e\ud83d\udc4a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_91e7cb9117a10dc5dbba6316c91b879c = L.popup({
+        var popup_03ff1fa78f7f2799542302077864a500 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_4482e3761d4654605b30f6f7ad410f41 = $(`<div id="html_4482e3761d4654605b30f6f7ad410f41" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Şişli</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Şişli'de Seren Yüce Evinde Silahlı Saldırıya Uğradı ve Yaralandı - Mersin Haber</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_91e7cb9117a10dc5dbba6316c91b879c.setContent(html_4482e3761d4654605b30f6f7ad410f41);
+                var html_5cc4bf00467cb65b5ad255292297a38b = $(`<div id="html_5cc4bf00467cb65b5ad255292297a38b" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 01:48</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Şişli</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Şişli'de Seren Yüce Evinde Silahlı Saldırıya Uğradı ve Yaralandı - Mersin Haber</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_03ff1fa78f7f2799542302077864a500.setContent(html_5cc4bf00467cb65b5ad255292297a38b);
             
         
 
-        marker_69e24c2199082cf9101553660bf55bfd.bindPopup(popup_91e7cb9117a10dc5dbba6316c91b879c)
+        marker_2856beeb975eaf2133abab73b06e3b56.bindPopup(popup_03ff1fa78f7f2799542302077864a500)
         ;
 
         
     
     
-                marker_69e24c2199082cf9101553660bf55bfd.setIcon(div_icon_cb5b7bc0c06f551ca655771fe9fd51ed);
+                marker_2856beeb975eaf2133abab73b06e3b56.setIcon(div_icon_b2529cf57a7063e1c4cc4597c6551ebe);
             
     
-            var marker_a0e5436f67e450dfa1aa61ae86d0e1b4 = L.marker(
+            var marker_b0a1f78a28c08841bf81ea2901871282 = L.marker(
                 [41.096333718479585, 28.806602899344618],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_49bb39bcf932c27453ec43ca69d15a80 = L.divIcon({
+            var div_icon_323a043706e9f679b984f389100a7b89 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_afacc79707ff79f7676ddc0d107961bf = L.popup({
+        var popup_73dc8598dad6d8a5b004782de63a4b93 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_caff8b6f0df9d2d27ab5f0cfcb0c65b2 = $(`<div id="html_caff8b6f0df9d2d27ab5f0cfcb0c65b2" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Başakşehir</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Başakşehir’de kopan vinç 2 araca ve binaya çarptı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_afacc79707ff79f7676ddc0d107961bf.setContent(html_caff8b6f0df9d2d27ab5f0cfcb0c65b2);
+                var html_24811a30c9fb3f5d6f481884ce616182 = $(`<div id="html_24811a30c9fb3f5d6f481884ce616182" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Başakşehir</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Başakşehir’de kopan vinç 2 araca ve binaya çarptı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_73dc8598dad6d8a5b004782de63a4b93.setContent(html_24811a30c9fb3f5d6f481884ce616182);
             
         
 
-        marker_a0e5436f67e450dfa1aa61ae86d0e1b4.bindPopup(popup_afacc79707ff79f7676ddc0d107961bf)
+        marker_b0a1f78a28c08841bf81ea2901871282.bindPopup(popup_73dc8598dad6d8a5b004782de63a4b93)
         ;
 
         
     
     
-                marker_a0e5436f67e450dfa1aa61ae86d0e1b4.setIcon(div_icon_49bb39bcf932c27453ec43ca69d15a80);
+                marker_b0a1f78a28c08841bf81ea2901871282.setIcon(div_icon_323a043706e9f679b984f389100a7b89);
             
     
-            var marker_8e7d8b72fbd503ea4eb9a9404ada8af3 = L.marker(
+            var marker_6a94f46ded78175784c304533d3fa7f4 = L.marker(
                 [40.999086784866165, 28.761819086136516],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_6725d40d1ec0db7fe6e0610c643ea3ed = L.divIcon({
+            var div_icon_607ab593f93f4f749bedc0b18af89e31 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_efcd3107d408a8d5a54c4263ff51bbe6 = L.popup({
+        var popup_21206f62f7022d0b84a70915dac225f2 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_30a76b8ca6717e54a504c82f1882bd16 = $(`<div id="html_30a76b8ca6717e54a504c82f1882bd16" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Küçükçekmece</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Küçükçekmece'de Tanker Teması: 'Kalbajar' Kurtarıldı, 'Alatepe' İçin Müdahale Sürüyor - Haberport.com</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_efcd3107d408a8d5a54c4263ff51bbe6.setContent(html_30a76b8ca6717e54a504c82f1882bd16);
+                var html_c82d87b97428a067a323762800aec988 = $(`<div id="html_c82d87b97428a067a323762800aec988" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Küçükçekmece</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Küçükçekmece'de Tanker Teması: 'Kalbajar' Kurtarıldı, 'Alatepe' İçin Müdahale Sürüyor - Haberport.com</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_21206f62f7022d0b84a70915dac225f2.setContent(html_c82d87b97428a067a323762800aec988);
             
         
 
-        marker_8e7d8b72fbd503ea4eb9a9404ada8af3.bindPopup(popup_efcd3107d408a8d5a54c4263ff51bbe6)
+        marker_6a94f46ded78175784c304533d3fa7f4.bindPopup(popup_21206f62f7022d0b84a70915dac225f2)
         ;
 
         
     
     
-                marker_8e7d8b72fbd503ea4eb9a9404ada8af3.setIcon(div_icon_6725d40d1ec0db7fe6e0610c643ea3ed);
+                marker_6a94f46ded78175784c304533d3fa7f4.setIcon(div_icon_607ab593f93f4f749bedc0b18af89e31);
             
     
-            var marker_d6cc7d2b080a2ebf935424f85d5a78fc = L.marker(
+            var marker_961055a198281eb542795de4c534566a = L.marker(
                 [41.01935557006377, 28.67859356118232],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_5002923f07ff35c7c92bc80aef88846a = L.divIcon({
+            var div_icon_bd4772c46c8fbda77d442d403c59e30a = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_7517b20a8e18547846c0596ff0a66eaf = L.popup({
+        var popup_bfc7df2b5919ceaf1e073722f1de3da2 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_fe915258333941ccc5cb26fd37b81c03 = $(`<div id="html_fe915258333941ccc5cb26fd37b81c03" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Esenyurt</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Esenyurt'ta Hırdavat Üretim Tesisinde Patlamalı Yangın: Alevler Fabrikayı Yuttu - Kocaeli TV</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_7517b20a8e18547846c0596ff0a66eaf.setContent(html_fe915258333941ccc5cb26fd37b81c03);
+                var html_1296d9a492eb1a11ed9cf0012a930142 = $(`<div id="html_1296d9a492eb1a11ed9cf0012a930142" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Esenyurt</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Esenyurt'ta Hırdavat Üretim Tesisinde Patlamalı Yangın: Alevler Fabrikayı Yuttu - Kocaeli TV</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_bfc7df2b5919ceaf1e073722f1de3da2.setContent(html_1296d9a492eb1a11ed9cf0012a930142);
             
         
 
-        marker_d6cc7d2b080a2ebf935424f85d5a78fc.bindPopup(popup_7517b20a8e18547846c0596ff0a66eaf)
+        marker_961055a198281eb542795de4c534566a.bindPopup(popup_bfc7df2b5919ceaf1e073722f1de3da2)
         ;
 
         
     
     
-                marker_d6cc7d2b080a2ebf935424f85d5a78fc.setIcon(div_icon_5002923f07ff35c7c92bc80aef88846a);
+                marker_961055a198281eb542795de4c534566a.setIcon(div_icon_bd4772c46c8fbda77d442d403c59e30a);
             
     
-            var marker_7864f682a11037d4a5dfaf7fcb35c836 = L.marker(
+            var marker_de17ac9f10f3762ed61ec5e2c76a5e34 = L.marker(
                 [41.17176428457124, 28.748043732003705],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_aa9dc551ba78aed9cbb706fe0cebed79 = L.divIcon({
+            var div_icon_064a47cd95d45bbff20af72ab1f193fd = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_05ec9c6add80ac4015cc211314510024 = L.popup({
+        var popup_45aed8de2288f9951518870c4a0c4f88 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_18337071d6b904549c37ab23a568886f = $(`<div id="html_18337071d6b904549c37ab23a568886f" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Fatih, Arnavutköy, Sarıyer okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_05ec9c6add80ac4015cc211314510024.setContent(html_18337071d6b904549c37ab23a568886f);
+                var html_590e11a7cd40c1e2c97faf13dab681c9 = $(`<div id="html_590e11a7cd40c1e2c97faf13dab681c9" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 04:28</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Fatih, Arnavutköy, Sarıyer okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_45aed8de2288f9951518870c4a0c4f88.setContent(html_590e11a7cd40c1e2c97faf13dab681c9);
             
         
 
-        marker_7864f682a11037d4a5dfaf7fcb35c836.bindPopup(popup_05ec9c6add80ac4015cc211314510024)
+        marker_de17ac9f10f3762ed61ec5e2c76a5e34.bindPopup(popup_45aed8de2288f9951518870c4a0c4f88)
         ;
 
         
     
     
-                marker_7864f682a11037d4a5dfaf7fcb35c836.setIcon(div_icon_aa9dc551ba78aed9cbb706fe0cebed79);
+                marker_de17ac9f10f3762ed61ec5e2c76a5e34.setIcon(div_icon_064a47cd95d45bbff20af72ab1f193fd);
             
     
-            var marker_83015c5fa0b77211c1deeb3c9bcb8a45 = L.marker(
+            var marker_b861f14aaef995d8530dc6b564199a3e = L.marker(
                 [41.17460824195394, 28.740651536347453],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_378211537025261df53c0eb1652c6496 = L.divIcon({
+            var div_icon_8affef0868bbab1d8f165becabf2e6d9 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FF4500); cursor: pointer;\"\u003e\ud83d\udc4a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_f9ad82098b4c9b5058f979e32d5fa618 = L.popup({
+        var popup_a9308c065bedbe86ecd038b8a984d1ac = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_5d9e3c42858ea0c55c334c877b60a651 = $(`<div id="html_5d9e3c42858ea0c55c334c877b60a651" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 05:45</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Arnavutköy'de Zincir Marketin Önüne Silahlı Saldırı Yapıldı - Mersin Haber</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_f9ad82098b4c9b5058f979e32d5fa618.setContent(html_5d9e3c42858ea0c55c334c877b60a651);
+                var html_80a046147c2dd685590091afddb0fffc = $(`<div id="html_80a046147c2dd685590091afddb0fffc" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 05:45</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Arnavutköy'de Zincir Marketin Önüne Silahlı Saldırı Yapıldı - Mersin Haber</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_a9308c065bedbe86ecd038b8a984d1ac.setContent(html_80a046147c2dd685590091afddb0fffc);
             
         
 
-        marker_83015c5fa0b77211c1deeb3c9bcb8a45.bindPopup(popup_f9ad82098b4c9b5058f979e32d5fa618)
+        marker_b861f14aaef995d8530dc6b564199a3e.bindPopup(popup_a9308c065bedbe86ecd038b8a984d1ac)
         ;
 
         
     
     
-                marker_83015c5fa0b77211c1deeb3c9bcb8a45.setIcon(div_icon_378211537025261df53c0eb1652c6496);
+                marker_b861f14aaef995d8530dc6b564199a3e.setIcon(div_icon_8affef0868bbab1d8f165becabf2e6d9);
             
     
-            var marker_489dc4ffb39f9817047e002b23e6a59c = L.marker(
+            var marker_803cbd8c2a1acb3c89ce27d5af6f895e = L.marker(
                 [41.102551389543756, 28.805888090011067],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_f7c726238d00b4ab3f47204ad98613c0 = L.divIcon({
+            var div_icon_ad71db919cd6251a509c63a5d5051041 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_39d6b609b7cc376d2370ca4842638ead = L.popup({
+        var popup_9311188f945188b9269f1db9aa3cad06 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_c95d284b85445dfa68d76d58bf6f72cd = $(`<div id="html_c95d284b85445dfa68d76d58bf6f72cd" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 05:58</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Başakşehir</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Sultangazi, Maltepe, Başakşehir okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_39d6b609b7cc376d2370ca4842638ead.setContent(html_c95d284b85445dfa68d76d58bf6f72cd);
+                var html_6aba27dccaa2aaa86346ed1e343857d3 = $(`<div id="html_6aba27dccaa2aaa86346ed1e343857d3" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 05:58</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Başakşehir</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Sultangazi, Maltepe, Başakşehir okullar tatil mi? 2 Ocak 2026 Son Dakika yarın okullar tatil mi? - Haberler</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_9311188f945188b9269f1db9aa3cad06.setContent(html_6aba27dccaa2aaa86346ed1e343857d3);
             
         
 
-        marker_489dc4ffb39f9817047e002b23e6a59c.bindPopup(popup_39d6b609b7cc376d2370ca4842638ead)
+        marker_803cbd8c2a1acb3c89ce27d5af6f895e.bindPopup(popup_9311188f945188b9269f1db9aa3cad06)
         ;
 
         
     
     
-                marker_489dc4ffb39f9817047e002b23e6a59c.setIcon(div_icon_f7c726238d00b4ab3f47204ad98613c0);
+                marker_803cbd8c2a1acb3c89ce27d5af6f895e.setIcon(div_icon_ad71db919cd6251a509c63a5d5051041);
             
     
-            var marker_a9180b55cedec76f2371fd12c4f4a3cc = L.marker(
+            var marker_de0c3184f0cc7422835c8956b9e1035f = L.marker(
                 [41.079213762921114, 28.98253452262724],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_7e7f92e5dad0853c25699f1f1e6fcb86 = L.divIcon({
+            var div_icon_764df21bf64ec67b2996096cd6e70fd6 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FF4500); cursor: pointer;\"\u003e\ud83d\udc4a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_bdbc85da1a964d96f04f0e12f6316d14 = L.popup({
+        var popup_0fe3e697fa83fd611e5dcdfd13a3677c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_323da0794f7995485b581dd1b38c98a0 = $(`<div id="html_323da0794f7995485b581dd1b38c98a0" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 07:44</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kağıthane</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kağıthane’de yokuştan kayan kamyonet kar topu oynayanlara çarptı: 2 çocuk yaralandı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_bdbc85da1a964d96f04f0e12f6316d14.setContent(html_323da0794f7995485b581dd1b38c98a0);
+                var html_dab4218b9cfd9fe33d773ced63feaf7e = $(`<div id="html_dab4218b9cfd9fe33d773ced63feaf7e" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 07:44</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kağıthane</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kağıthane’de yokuştan kayan kamyonet kar topu oynayanlara çarptı: 2 çocuk yaralandı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_0fe3e697fa83fd611e5dcdfd13a3677c.setContent(html_dab4218b9cfd9fe33d773ced63feaf7e);
             
         
 
-        marker_a9180b55cedec76f2371fd12c4f4a3cc.bindPopup(popup_bdbc85da1a964d96f04f0e12f6316d14)
+        marker_de0c3184f0cc7422835c8956b9e1035f.bindPopup(popup_0fe3e697fa83fd611e5dcdfd13a3677c)
         ;
 
         
     
     
-                marker_a9180b55cedec76f2371fd12c4f4a3cc.setIcon(div_icon_7e7f92e5dad0853c25699f1f1e6fcb86);
+                marker_de0c3184f0cc7422835c8956b9e1035f.setIcon(div_icon_764df21bf64ec67b2996096cd6e70fd6);
             
     
-            var marker_d2e32922b93b134fcb805e2e1af811ec = L.marker(
+            var marker_d4ba75515e1c5c82ff1c5e0060f68e9b = L.marker(
                 [41.005186922559886, 28.92641884809144],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_959c45eb2f0103d704f2e7f21c4ba720 = L.divIcon({
+            var div_icon_67e5db215d9eeaa1f610e7cafdcba673 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_f29e54fe3cd1fe212f1f2e0cae3befa1 = L.popup({
+        var popup_4ead88f02209af72ad520855267ad56c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_d22edc571b4c997b527323daff178ed3 = $(`<div id="html_d22edc571b4c997b527323daff178ed3" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 08:57</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Fatih</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Fatih'te açlıktan ölen bebekte flaş gelişme! Aile boyu katil | SON DAKİKA HABERİ | Son dakika haberleri - Habertürk</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_f29e54fe3cd1fe212f1f2e0cae3befa1.setContent(html_d22edc571b4c997b527323daff178ed3);
+                var html_f7c2e089193f169d972c79b83f7cbf46 = $(`<div id="html_f7c2e089193f169d972c79b83f7cbf46" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 08:57</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Fatih</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">İstanbul Fatih'te açlıktan ölen bebekte flaş gelişme! Aile boyu katil | SON DAKİKA HABERİ | Son dakika haberleri - Habertürk</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_4ead88f02209af72ad520855267ad56c.setContent(html_f7c2e089193f169d972c79b83f7cbf46);
             
         
 
-        marker_d2e32922b93b134fcb805e2e1af811ec.bindPopup(popup_f29e54fe3cd1fe212f1f2e0cae3befa1)
+        marker_d4ba75515e1c5c82ff1c5e0060f68e9b.bindPopup(popup_4ead88f02209af72ad520855267ad56c)
         ;
 
         
     
     
-                marker_d2e32922b93b134fcb805e2e1af811ec.setIcon(div_icon_959c45eb2f0103d704f2e7f21c4ba720);
+                marker_d4ba75515e1c5c82ff1c5e0060f68e9b.setIcon(div_icon_67e5db215d9eeaa1f610e7cafdcba673);
             
     
-            var marker_c28485fa72ef3cfa6c134f211d87827b = L.marker(
+            var marker_3302f7d125f8fb9e4d8c8ab8d1ba404c = L.marker(
                 [41.005468242463785, 29.026196126905912],
                 {
 }
-            ).addTo(map_3c6590cfbb65cdbb2400ba4290672289);
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
         
     
-            var div_icon_4577107558a9a2bbf708d14305462818 = L.divIcon({
+            var div_icon_daef1bac252a502ad60163682ed68e53 = L.divIcon({
   "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #FF4500); cursor: pointer;\"\u003e\ud83d\udc4a\u003c/div\u003e",
   "className": "empty",
 });
         
     
-        var popup_e039779d8ea76aaf52053730b5ea4d58 = L.popup({
+        var popup_5e20788fa1af1d2117b7ec3d73f60cd5 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_2df10fe41fc0402f2c4a2be4a9b9a203 = $(`<div id="html_2df10fe41fc0402f2c4a2be4a9b9a203" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 08:57</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kadıköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kadıköy'de yanan 3 katlı metruk binadan atlayan bir kişi yaralandı | Video videosunu izle | Son Dakika Haberleri - Sabah</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
-                popup_e039779d8ea76aaf52053730b5ea4d58.setContent(html_2df10fe41fc0402f2c4a2be4a9b9a203);
+                var html_ce3b79f58c1163ed4cf66aaeed426dcd = $(`<div id="html_ce3b79f58c1163ed4cf66aaeed426dcd" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #FF4500);">👊</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #FF4500; font-size: 15px;">Saldırı</h4>                     <span style="font-size: 10px; color: #888;">🕒 08:57</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Kadıköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Kadıköy'de yanan 3 katlı metruk binadan atlayan bir kişi yaralandı | Video videosunu izle | Son Dakika Haberleri - Sabah</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_5e20788fa1af1d2117b7ec3d73f60cd5.setContent(html_ce3b79f58c1163ed4cf66aaeed426dcd);
             
         
 
-        marker_c28485fa72ef3cfa6c134f211d87827b.bindPopup(popup_e039779d8ea76aaf52053730b5ea4d58)
+        marker_3302f7d125f8fb9e4d8c8ab8d1ba404c.bindPopup(popup_5e20788fa1af1d2117b7ec3d73f60cd5)
         ;
 
         
     
     
-                marker_c28485fa72ef3cfa6c134f211d87827b.setIcon(div_icon_4577107558a9a2bbf708d14305462818);
+                marker_3302f7d125f8fb9e4d8c8ab8d1ba404c.setIcon(div_icon_daef1bac252a502ad60163682ed68e53);
+            
+    
+            var marker_10643dc9001da56c342ab53a885433c6 = L.marker(
+                [41.041994366220784, 29.00164991038785],
+                {
+}
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
+        
+    
+            var div_icon_4ba37b06dbe9db3b026eb28a708ece7e = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+        var popup_f65d6ce3e19a8aaefb42c3bf5e852039 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_34038b2d408891ec154f203f75c0fcee = $(`<div id="html_34038b2d408891ec154f203f75c0fcee" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 10:56</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Beşiktaş</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Beşiktaş’ta kar yağışı nedeniyle araç yolda kaldı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_f65d6ce3e19a8aaefb42c3bf5e852039.setContent(html_34038b2d408891ec154f203f75c0fcee);
+            
+        
+
+        marker_10643dc9001da56c342ab53a885433c6.bindPopup(popup_f65d6ce3e19a8aaefb42c3bf5e852039)
+        ;
+
+        
+    
+    
+                marker_10643dc9001da56c342ab53a885433c6.setIcon(div_icon_4ba37b06dbe9db3b026eb28a708ece7e);
+            
+    
+            var marker_d3e100bd9b5e797f549c5fdf3a329a1c = L.marker(
+                [41.170715909318936, 28.732361335537707],
+                {
+}
+            ).addTo(map_816363a19c31c20b207c6566822f576c);
+        
+    
+            var div_icon_4458b7c9951d4a6f0e219f18f2aad83d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 24px; filter: drop-shadow(0 0 8px #4682B4); cursor: pointer;\"\u003e\ud83d\udea8\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+        var popup_79e7eda5db9cbfd5587cc7b91e37929b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c651c333e566d555065cdeb24a390f75 = $(`<div id="html_c651c333e566d555065cdeb24a390f75" style="width: 100.0%; height: 100.0%;">         <div style="width: 320px; font-family: sans-serif; display: flex; align-items: center; gap: 12px; padding: 8px;">             <div style="font-size: 40px; filter: drop-shadow(0 0 5px #4682B4);">🚨</div>             <div style="flex: 1;">                 <div style="display:flex; justify-content:space-between; align-items:center;">                     <h4 style="margin: 0; color: #4682B4; font-size: 15px;">Asayiş</h4>                     <span style="font-size: 10px; color: #888;">🕒 10:56</span>                 </div>                 <p style="margin: 3px 0; font-size: 12px; font-weight: bold; color: #333;">Arnavutköy</p>                 <p style="margin: 0; font-size: 11px; line-height: 1.3; color: #555;">Arnavutköy’de çocuklar kar topu oynayarak tatilin tadını doyasıya çıkardı İhlas Haber Ajansı - İhlas Haber Ajansı</p>                 <div style="margin-top: 8px; font-size: 9px; color: #e74c3c; text-align: right; font-weight:bold;">LIVE TRACKING</div>             </div>         </div>         </div>`)[0];
+                popup_79e7eda5db9cbfd5587cc7b91e37929b.setContent(html_c651c333e566d555065cdeb24a390f75);
+            
+        
+
+        marker_d3e100bd9b5e797f549c5fdf3a329a1c.bindPopup(popup_79e7eda5db9cbfd5587cc7b91e37929b)
+        ;
+
+        
+    
+    
+                marker_d3e100bd9b5e797f549c5fdf3a329a1c.setIcon(div_icon_4458b7c9951d4a6f0e219f18f2aad83d);
             
 </script>
 </html>
